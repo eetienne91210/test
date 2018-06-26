@@ -17,7 +17,7 @@ new_paths = pathsep.join([prefix,
                          join(prefix, "Library", "mingw-w64", "bin"),
                          join(prefix, "Library", "usr", "bin"),
                          join(prefix, "Library", "bin"),
-                         join(prefix, "Scripts")])
+                         join(prefix, "Scripts2")])
 env = os.environ.copy()
 env['PATH'] = new_paths + pathsep + env['PATH']
 env['CONDA_PREFIX'] = prefix
